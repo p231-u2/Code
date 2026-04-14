@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love 💖</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow"></div>
+
+    <header class="hero card">
+      <p class="tag">A birthday surprise made with love</p>
+      <h1 id="typewriter"></h1>
+      <p class="subtitle">
+        Today is all about <span class="name">Her Name</span>. You make every day brighter,
+        softer, and happier.
+      </p>
+      <button id="surpriseBtn" class="btn">Tap for a Surprise ✨</button>
+    </header>
+
+    <main>
+      <section class="card section">
+        <h2>Our Sweet Memory Wall</h2>
+        <p class="section-note">Replace these placeholders with your favorite photos later.</p>
+
+        <div class="photo-grid">
+          <figure class="photo"><img src="https://placehold.co/600x400/png?text=Photo+1" alt="Memory 1" /><figcaption>Our first smile together</figcaption></figure>
+          <figure class="photo"><img src="https://placehold.co/600x400/png?text=Photo+2" alt="Memory 2" /><figcaption>That beautiful day out</figcaption></figure>
+          <figure class="photo"><img src="https://placehold.co/600x400/png?text=Photo+3" alt="Memory 3" /><figcaption>Laughing until sunset</figcaption></figure>
+          <figure class="photo"><img src="https://placehold.co/600x400/png?text=Photo+4" alt="Memory 4" /><figcaption>My favorite candid of you</figcaption></figure>
+          <figure class="photo"><img src="https://placehold.co/600x400/png?text=Photo+5" alt="Memory 5" /><figcaption>A tiny moment, big love</figcaption></figure>
+          <figure class="photo"><img src="https://placehold.co/600x400/png?text=Photo+6" alt="Memory 6" /><figcaption>Forever my happiest place</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="card section">
+        <h2>Reasons I Love You</h2>
+        <div class="chips">
+          <button class="chip">Your smile</button>
+          <button class="chip">Your kindness</button>
+          <button class="chip">Your silly laugh</button>
+          <button class="chip">Your strength</button>
+          <button class="chip">Your warm heart</button>
+          <button class="chip">Everything about you</button>
+        </div>
+        <p id="reasonOutput" class="output">Click a reason for a cute note 💌</p>
+      </section>
+
+      <section class="card section">
+        <h2>Mini Birthday Album Book 📖</h2>
+        <p class="section-note">A tiny interactive book to end the surprise.</p>
+
+        <div class="book-wrap">
+          <article class="book-page active" data-page="0">
+            <h3>Page 1</h3>
+            <p>Happy Birthday to the most beautiful soul I know.</p>
+          </article>
+          <article class="book-page" data-page="1">
+            <h3>Page 2</h3>
+            <p>You make ordinary days feel magical.</p>
+          </article>
+          <article class="book-page" data-page="2">
+            <h3>Page 3</h3>
+            <p>Every memory with you is my favorite memory.</p>
+          </article>
+          <article class="book-page" data-page="3">
+            <h3>Page 4</h3>
+            <p>May this year bring you joy, peace, and endless smiles.</p>
+          </article>
+          <article class="book-page" data-page="4">
+            <h3>Final Page</h3>
+            <p>I love you. Happy Birthday, my queen 👑💖</p>
+          </article>
+        </div>
+
+        <div class="book-controls">
+          <button id="prevPage" class="btn secondary">⬅ Previous</button>
+          <button id="nextPage" class="btn">Next ➡</button>
+        </div>
+      </section>
+    </main>
+
+    <div id="wishModal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <h2>Happy Birthday, Love! 🎂</h2>
+        <p>
+          You deserve every beautiful thing in this world. Thank you for being my peace,
+          my joy, and my best friend.
+        </p>
+        <button id="closeModal" class="btn">Aww, thank you 💕</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
